@@ -18,8 +18,10 @@ public class DistanceFromAverage {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        NathanWasHere();
         Scanner input = new Scanner(System.in);
-        int x = 0;
+        int n = 0;
         double[] guess = new double[0];
         double[] memory = new double[0];
         double in = 0;
@@ -37,9 +39,9 @@ public class DistanceFromAverage {
                     guess[y] = memory[y];
                 }
                 memory = guess;
-                guess[x] = in;
-                memory[x] = in;
-                x++;
+                guess[n] = in;
+                memory[n] = in;
+                n++;
                 for (int z = 0; z < guess.length; z++) {
                     add += guess[z];
                 }
@@ -51,10 +53,15 @@ public class DistanceFromAverage {
                 } else {
                     i = 1;
                 }
+                System.out.println("this code is hunted by nathan");
             }
 
         } while (i == 0);
 
+    }
+    static  void NathanWasHere(){
+    
+    System.out.println("BOO NATHAN WAS HERE");
     }
 
 }
