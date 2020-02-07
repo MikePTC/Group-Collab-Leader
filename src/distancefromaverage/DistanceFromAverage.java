@@ -18,6 +18,7 @@ public class DistanceFromAverage {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("James Buck");
         Scanner input = new Scanner(System.in);
         int x = 0;
         double[] guess = new double[0];
