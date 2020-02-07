@@ -17,9 +17,11 @@ public class DistanceFromAverage {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         
         NathanWasHere();
+=======
+        System.out.println("James Buck");
+
         Scanner input = new Scanner(System.in);
         int n = 0;
         double[] guess = new double[0];
